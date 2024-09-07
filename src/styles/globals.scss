@@ -1,0 +1,38 @@
+:root {
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.Index {
+  max-width: 1200px;
+  width: 100%;
+  margin: 40px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+
+  > div {
+    border: 1px solid black;
+  }
+
+  &__left {
+  }
+
+  &__right {
+  }
+}
