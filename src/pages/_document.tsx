@@ -8,10 +8,11 @@ export default function Document() {
         <meta name="description" content="Twitch Chat Generator" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
-        <meta
-          name="google-adsense-account"
-          content="ca-pub-8358278144716036"
-        ></meta>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8358278144716036"
+          crossOrigin="anonymous"
+        ></script>
       </Head>
       <body>
         <Main />
