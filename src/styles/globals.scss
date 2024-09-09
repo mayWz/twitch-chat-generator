@@ -25,9 +25,10 @@ a {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
+  min-height: calc(100dvh - 80px);
 
   > div {
-    border: 1px solid black;
+    border: 1px solid white;
   }
 
   &__left {
