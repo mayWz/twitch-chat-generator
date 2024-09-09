@@ -27,13 +27,11 @@ a {
   gap: 20px;
   min-height: calc(100dvh - 80px);
 
-  > div {
-    border: 1px solid white;
-  }
-
   &__left {
   }
 
   &__right {
+    border: 1px solid black;
+    color: black;
   }
 }
