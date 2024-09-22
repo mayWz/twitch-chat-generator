@@ -6,13 +6,22 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "format": "yarn run format-prettier && yarn run format-scss",
+    "format-scss": "yarn run stylelint src/**/*.scss --fix --formatter verbose",
+    "format-prettier": "prettier --write \"**/*.{js,jsx,ts,tsx,json,mjs,css,scss}\""
   },
   "dependencies": {
     "next": "14.2.8",
+    "prettier": "^3.3.3",
     "react": "^18",
     "react-dom": "^18",
-    "sass": "^1.78.0"
+    "sass": "^1.78.0",
+    "stylelint": "^16.9.0",
+    "stylelint-config-prettier-scss": "^1.0.0",
+    "stylelint-config-property-sort-order-smacss": "^10.0.0",
+    "stylelint-config-standard": "^36.0.1",
+    "stylelint-config-standard-scss": "^13.1.0"
   },
   "devDependencies": {
     "@types/node": "^20",

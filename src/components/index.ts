@@ -1,1 +1,1 @@
-export * from './MockChat'
+export * from "./MockChat";
