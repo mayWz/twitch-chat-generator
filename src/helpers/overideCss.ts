@@ -1,13 +1,13 @@
 export const importOverideCss = `
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&display=swap');
-`
+`;
 
 export const preOverideCss = `
 * {
  background: transparent !important;
  scroll-behavior: smooth;
 }
-`
+`;
 
 export const mainOverideCss = `
 .stream-chat {
@@ -87,9 +87,9 @@ div[data-a-target="moderation-action"],
   vertical-align: unset;
   margin: 0;
 }
-`
+`;
 
 export const defaultCssValue = {
-  '--textbox-bg-color': '#ffffffbb',
-  '--textbox-border-color': '#000000ff',
-}
+  "--textbox-bg-color": "#ffffffbb",
+  "--textbox-border-color": "#000000ff",
+};

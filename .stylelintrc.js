@@ -6,7 +6,7 @@ module.exports = {
     "stylelint-config-property-sort-order-smacss",
   ],
   rules: {
-    // indentation: 2,
+    indentation: 2,
     "no-descending-specificity": null,
     "property-no-unknown": [
       true,
@@ -20,14 +20,14 @@ module.exports = {
     "keyframes-name-pattern": null,
     "scss/percent-placeholder-pattern": null,
     "declaration-block-no-duplicate-properties": true,
-    // 'string-quotes': 'single',
+    "string-quotes": "single",
     "font-family-no-missing-generic-family-keyword": null,
-    // 'color-hex-case': 'lower',
+    "color-hex-case": "lower",
     "color-function-notation": "legacy",
     "alpha-value-notation": "number",
     "block-no-empty": null,
     "scss/no-global-function-names": null,
-    // 'selector-combinator-space-before': 'always',
-    // 'selector-combinator-space-after': 'always',
+    "selector-combinator-space-before": "always",
+    "selector-combinator-space-after": "always",
   },
 };

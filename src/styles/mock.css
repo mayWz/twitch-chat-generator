@@ -48,7 +48,8 @@ body {
   color: #efeff1;
   font-size: 1.3rem;
   background-color: #0e0e10;
-  font-family: 'Inter', 'Roobert', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Inter", "Roobert", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
   overflow: hidden;
 }
 html,
@@ -188,7 +189,7 @@ p {
   overflow: hidden;
   z-index: 0;
 }
-[data-simplebar='init'] {
+[data-simplebar="init"] {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
