@@ -1,4 +1,4 @@
-import { hexToPercent, percentToHex } from '@/helpers/utils'
+import { hexToPercent, percentToHex } from '@/helpers'
 
 type Props = {
   label: string
