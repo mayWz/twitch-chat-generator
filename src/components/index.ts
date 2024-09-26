@@ -1,1 +1,2 @@
-export * from "./MockChat";
+export * from './ColorPicker'
+export * from './MockChat'

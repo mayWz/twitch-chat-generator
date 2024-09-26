@@ -1,11 +1,15 @@
-export const baseOverideCss = `
+export const importOverideCss = `
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&display=swap');
+`
 
+export const preOverideCss = `
 * {
  background: transparent !important;
  scroll-behavior: smooth;
 }
- 
+`
+
+export const mainOverideCss = `
 .stream-chat {
   font-family: "Noto Sans Thai" !important;
 }
@@ -36,16 +40,21 @@ div[data-a-target="moderation-action"],
   color: navy !important;
 }
 
+.chat-line__message-container .tw-svg {
+  color: navy !important;
+}
+
 .reply-line--mentioned {
   color: navy !important;
+  background: transparent !important;
 }
 
 .chat-line__message-container {
   margin: 1.25em 0 0 0.25em;
   padding: 0.5em 0.25em 0.25em;
   position: relative;
-  border: 3px solid black;
-  background-color: #ffffffbb !important;
+  border: 3px solid var(--textbox-border-color);
+  background-color: var(--textbox-bg-color) !important;
   border-radius: 0.5em;
 }
 
@@ -70,8 +79,17 @@ div[data-a-target="moderation-action"],
   background-color: black !important;
 }
 
+.chat-author__display-name {
+  color: auto !important;
+}
+
 .chat-line__message--emote-button img {
   vertical-align: unset;
   margin: 0;
 }
-`;
+`
+
+export const defaultCssValue = {
+  '--textbox-bg-color': '#ffffffbb',
+  '--textbox-border-color': '#000000ff',
+}
